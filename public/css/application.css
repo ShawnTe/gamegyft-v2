@@ -75,7 +75,13 @@ p {
   font-size: 1.7em;
   color: #EEF0F2;
   padding-top: 9px;
+
 }
+
+#logo:hover {
+    color: #FAAA13;
+    text-decoration: none;
+ }
 
 #menu-items {
   margin-right: 10px;
@@ -83,22 +89,19 @@ p {
 
 }
 
-/*a {
-  color: #f00;
-}*/
+a {
+  color: #1a1F71;
+}
 
-log:hover {
-    color: #f00;
-    text-decoration: none;
- }
 
 /* footer */
 
 footer {
+  font-size: .75em;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #75787B;
-  /*color: $gray-light;*/
+  color: #75787B;
 
 }
 
@@ -164,3 +167,27 @@ input, textarea {
     left: 30px;
     border: 3px solid #73AD21;
 }
+
+.nav li{
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+
+ }
+
+ #menu-items li a:hover {
+    color: #FAAA13;
+    text-decoration: none;
+ }
+
+footer a:hover {
+  color: #FAAA13;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
