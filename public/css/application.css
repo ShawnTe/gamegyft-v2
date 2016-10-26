@@ -83,11 +83,11 @@ p {
 
 }
 
-/*a {
-  color: #f00;
-}*/
+a {
+  color: #1a1F71;
+}
 
-log:hover {
+logo:hover {
     color: #f00;
     text-decoration: none;
  }
@@ -95,10 +95,11 @@ log:hover {
 /* footer */
 
 footer {
+  font-size: .75em;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #75787B;
-  /*color: $gray-light;*/
+  color: #75787B;
 
 }
 
