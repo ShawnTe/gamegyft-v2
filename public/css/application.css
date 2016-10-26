@@ -1,0 +1,193 @@
+/* color palette
+  blue: 1a1F71
+  white: FFFFFF
+  yellow: FDBB0A
+  orange yellow: FAAA13
+  grey: 75787B
+end color palette*/
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* universal */
+
+.navbar-inverse {
+  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%); 
+}
+
+body {
+	background-color: #FEDD84;
+	padding-top: 60px;
+ 	overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:22px;
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 15px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Orbitron', serif;
+  font-size: 30px;
+  position: auto;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: red;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  font-family: 'Orbitron', serif;
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 1.7em;
+  color: #EEF0F2;
+  padding-top: 9px;
+
+}
+
+#logo:hover {
+    color: #FAAA13;
+    text-decoration: none;
+ }
+
+#menu-items {
+  margin-right: 10px;
+  color: #f00;
+
+}
+
+a {
+  color: #1a1F71;
+}
+
+
+/* footer */
+
+footer {
+  font-size: .75em;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #75787B;
+  color: #75787B;
+
+}
+
+small {
+  	float: left;
+}
+
+small ul {
+  	float: right;
+  	list-style: none;
+}
+
+small li {
+  		float: left;
+  		margin-left: 15px;
+}
+
+
+input, textarea {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+  font-size: 1.5rem !important;
+}
+
+
+#center {
+  margin: auto;
+  width: 200px;
+}
+
+#button {
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+#gameCanvas {
+	border-style: solid;
+	border-color: black;
+	background: url("backImage.jpg");
+	background-size: 500px 350px;
+}
+
+#birthday {
+	text-align: center;
+}
+
+
+#gameCanvas {
+	border-style: solid;
+	border-color: black;
+	background: url("backImage.jpg");
+	background-size: 500px 350px;
+}
+
+/*#overlay1 {
+	position:absolute; top:20px; left:100px;
+}*/
+
+#overlay1 {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+.nav li{
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+
+ }
+
+ #menu-items li a:hover {
+    color: #FAAA13;
+    text-decoration: none;
+ }
+
+footer a:hover {
+  color: #FAAA13;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
