@@ -30,24 +30,37 @@ body {
 }
 
 .container {
-  width: 500px;
+  max-width: 600px;
   /*background-color: white;*/
   border-radius: 1vw;
   padding: 15px;
 }
 
+.game-page {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#left-side {
+  padding-right: 20px;
+  max-width: 30vw;
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-family: 'Russo One', sans-serif;
+
 }
 
 h1 {
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  font-family: 'Orbitron', serif;
-  font-size: 30px;
+  font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+  color: #75787B;
   position: auto;
 }
 
@@ -60,6 +73,9 @@ h2 {
   color: red;
 }
 
+h4 {
+  color: #75787B;
+}
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -169,6 +185,7 @@ input, textarea {
 .nav li{
   padding-top: 5px;
   font-family: 'Raleway', sans-serif;
+  font-size: .8em;
 
  }
 
