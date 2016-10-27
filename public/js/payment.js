@@ -1,3 +1,34 @@
+$(function(){
+
+  payment();
+});
+
+function payment(){
+	$('#payment').on('click', function(event) {
+		event.preventDefault();
+		collect_funds();
+	})
+}
+function collect_funds() {
+
+	 		$.ajax(
+				{type: "POST",
+				 url: "http://localhost:8080/visadirect",
+				 async: true,
+
+				  success: function (data) {
+				  	// alert( "Data Loaded: " + data );
+						console.log('in success visadirect')
+				  	window.location.href = "/payments/1";
+				  },
+				  error: function (data) {
+				  	// alert( "Data Loaded: " + data );
+						console.log('in error visadirect')
+				  	window.location.href = "/payments/1";
+				  }
+			});
+		}
+
 // Funds a card and re-directs to success page
 function fund_card() {
 
