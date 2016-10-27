@@ -24,7 +24,7 @@
     <!-- onclick="window.location.href = 'challenge-type.html'" -->
 
     <div class="row" id="amount-note-email">
-      <form class="col s12">
+      <form class="col s12" action="/gyfts" method='post'>
         <div class="row">
           <div class="input-field col s12">
             <input id="amount" type="text" class="validate" value="$10">
@@ -39,9 +39,8 @@
           </div>
         </div>
         <div class="input-field  s4 class">
-          <button class="btn waves-effect waves-light" type="button"
-            onclick="window.location.href = 'payment-information.html'" name="action">
-          Continue
+          <button class="btn waves-effect waves-light" type="submit">
+            Continue
           </button>
         </div>
       </form>
