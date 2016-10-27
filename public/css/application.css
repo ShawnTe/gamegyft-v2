@@ -14,8 +14,8 @@ end color palette*/
 
 /* universal */
 
-#logo {
-	margin: 5px;
+.navbar-inverse {
+  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%); 
 }
 
 body {
@@ -36,22 +36,19 @@ body {
   padding: 15px;
 }
 
-main {
-
-}
-
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-
 h1 {
-  font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: 'Orbitron', serif;
+  font-size: 30px;
+  position: auto;
 }
 
 h2 {
@@ -71,27 +68,40 @@ p {
 /* header */
 
 #logo {
+  font-family: 'Orbitron', serif;
   float: left;
   margin-right: 10px;
+  margin-left: 20px;
   font-size: 1.7em;
   color: #EEF0F2;
-  letter-spacing: -1px;
   padding-top: 9px;
-  font-weight: bold;
+
 }
 
-log:hover {
-    color: #f00;
+#logo:hover {
+    color: #FAAA13;
     text-decoration: none;
  }
+
+#menu-items {
+  margin-right: 10px;
+  color: #f00;
+
+}
+
+a {
+  color: #1a1F71;
+}
+
 
 /* footer */
 
 footer {
+  font-size: .75em;
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: $gray-light;
+  border-top: 1px solid #75787B;
+  color: #75787B;
 
 }
 
@@ -132,20 +142,12 @@ input, textarea {
 #gameCanvas {
 	border-style: solid;
 	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
+  background-image: url('../images/backImage.jpg');
+	background-size: 750px 525px;
 }
 
 #birthday {
 	text-align: center;
-}
-
-
-#gameCanvas {
-	border-style: solid;
-	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
 }
 
 /*#overlay1 {
@@ -157,3 +159,27 @@ input, textarea {
     left: 30px;
     border: 3px solid #73AD21;
 }
+
+.nav li{
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+
+ }
+
+ #menu-items li a:hover {
+    color: #FAAA13;
+    text-decoration: none;
+ }
+
+footer a:hover {
+  color: #FAAA13;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
