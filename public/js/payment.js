@@ -55,11 +55,12 @@ function fund_card() {
 
 		  success: function (data) {
 		  	// alert( "Data Loaded: " + data );
-		  	window.location.href = "game-success.html";
+		  	window.location.href = "/gyfts/1";
+
 		  },
 		  error: function (data) {
 		  	// alert( "Data Loaded: " + data );
-		  	window.location.href = "game-success.html";
+		  	window.location.href = "/gyfts/1";
 		  }
 	});
 

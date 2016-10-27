@@ -15,12 +15,15 @@ end color palette*/
 /* universal */
 
 .navbar-inverse {
+
   background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%);
+
 }
 
 body {
 	background-color: #FEDD84;
-	padding-top: 60px;
+	padding-top: 50px;
+  margin-top: 50px;
  	overflow: auto;
   display: flex;
   justify-content: center;
@@ -45,7 +48,7 @@ body {
 
 #left-side {
   padding-right: 20px;
-  max-width: 30vw;
+  max-width: 20vw;
 }
 /* typography */
 
@@ -109,7 +112,6 @@ a {
   color: #1a1F71;
 }
 
-
 /* footer */
 
 footer {
@@ -118,7 +120,6 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #75787B;
   color: #75787B;
-
 }
 
 small {
@@ -134,7 +135,6 @@ small li {
   		float: left;
   		margin-left: 15px;
 }
-
 
 input, textarea {
   border: 1px solid #bbb;
@@ -163,7 +163,14 @@ input, textarea {
 	border-style: solid;
 	border-color: black;
   background-image: url('../images/backImage.jpg');
-	background-size: 750px 525px;
+	background-size: 650px 455px;
+  height: 455px;
+  width: 650px;
+  /*float: right;*/
+}
+
+#game {
+  /*float: right;*/
 }
 
 #birthday {
@@ -171,10 +178,6 @@ input, textarea {
   width: 500px;
   padding-bottom: 20px;
 }
-
-/*#overlay1 {
-	position:absolute; top:20px; left:100px;
-}*/
 
 #overlay1 {
     position: relative;
@@ -198,3 +201,11 @@ footer a:hover {
   color: #FAAA13;
   text-decoration: none;
 }
+
+
+main {
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
+
+
