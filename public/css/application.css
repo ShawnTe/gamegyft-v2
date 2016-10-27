@@ -152,6 +152,8 @@ input, textarea {
 
 #birthday {
 	text-align: center;
+  width: 500px;
+  padding-bottom: 20px;
 }
 
 
