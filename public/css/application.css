@@ -21,6 +21,7 @@ end color palette*/
 body {
 	background-color: #FEDD84;
 	padding-top: 60px;
+  margin-top: 60px;
  	overflow: auto;
   display: flex;
   justify-content: center;
@@ -140,10 +141,11 @@ input, textarea {
 }
 
 #gameCanvas {
+  /*margin-top: 200px;*/
 	border-style: solid;
 	border-color: black;
   background-image: url('../images/backImage.jpg');
-	background-size: 750px 525px;
+	background-size: 700px 490px;
 }
 
 #birthday {
@@ -175,6 +177,10 @@ footer a:hover {
   color: #FAAA13;
   text-decoration: none;
 }
+
+/*main {
+  margin-top: 100px;
+}*/
 
 
 
