@@ -7,5 +7,5 @@ get '/gyfts/:id' do
 end
 
 post '/gyfts' do
-	redirect '/payments/new'
+	redirect '/games/new'
 end

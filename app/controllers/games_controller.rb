@@ -1,7 +1,11 @@
-get '/games/new' do 
+get '/games/new' do
 	erb :'games/new'
 end
 
-get '/games/:id' do 
+get '/games/:id' do
 	erb :'games/show'
+end
+
+post '/games' do
+	redirect '/payments/new'
 end
