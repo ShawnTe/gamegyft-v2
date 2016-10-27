@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  max-width: 600px;
   /*background-color: white;*/
   border-radius: 1vw;
   padding: 15px;
@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  font-family: 'Orbitron', serif;
-  font-size: 30px;
+  font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+  color: #75787B;
   position: auto;
 }
 
