@@ -97,38 +97,39 @@ function clear() {
 }
 
 function init() {
- canvas = document.getElementById("gameCanvas");
- ctx = canvas.getContext("2d");
- return setInterval(draw, 15);
+	canvas = document.getElementById("gameCanvas");
+	console.log(canvas)
+	ctx = canvas.getContext("2d");
+	return setInterval(draw, 15);
 }
 
 function draw() {
- clear();
- basketImg.src = "../images/basket.png";
- basketBottomImg.src = "../images/basket_bottom.png";
- ctx.fillStyle = "#444444";
- ctx.drawImage(gameCanvas, 0, 0);
 
- ctx.drawImage(basketImg, basketX, basketY);
+	clear();
+	basketImg.src = "../images/basket.png";
+	basketBottomImg.src = "../images/basket_bottom.png";
+	ctx.fillStyle = "#444444";
+	ctx.drawImage(gameCanvas, 0, 0);
+	ctx.drawImage(basketImg, basketX, basketY);
 
- // Draw the apples on the trees
- ctx.drawImage(appleImg, x1 - 18, y1 - 10);
- ctx.drawImage(appleImg, x2 - 18, y2 - 10);
- ctx.drawImage(appleImg, x3 - 18, y3 - 10);
- ctx.drawImage(appleImg, x4 - 18, y4 - 10);
- ctx.drawImage(appleImg, x5 - 18, y5 - 10);
- ctx.drawImage(appleImg, x6 - 18, y6 - 10);
- ctx.drawImage(appleImg, x7 - 18, y7 - 10);
- ctx.drawImage(appleImg, x8 - 18, y8 - 10);
- ctx.drawImage(appleImg, x9 - 18, y9 - 10);
+	// Draw the apples on the trees
+	ctx.drawImage(appleImg, x1 - 18, y1 - 10);
+	ctx.drawImage(appleImg, x2 - 18, y2 - 10);
+	ctx.drawImage(appleImg, x3 - 18, y3 - 10);
+	ctx.drawImage(appleImg, x4 - 18, y4 - 10);
+	ctx.drawImage(appleImg, x5 - 18, y5 - 10);
+	ctx.drawImage(appleImg, x6 - 18, y6 - 10);
+	ctx.drawImage(appleImg, x7 - 18, y7 - 10);
+	ctx.drawImage(appleImg, x8 - 18, y8 - 10);
+	ctx.drawImage(appleImg, x9 - 18, y9 - 10);
 
- // Draw the apples in the basket
- ctx.drawImage(appleImg, 322, 445 - 10);
- ctx.drawImage(appleImg, 280, 444 - 10);
- ctx.drawImage(appleImg, 287, 444 - 10);
- ctx.drawImage(appleImg, 369, 446 - 10);
- 
- ctx.drawImage(basketBottomImg, basketX, basketY);
+	// Draw the apples in the basket
+	ctx.drawImage(appleImg, 322, 445 - 10);
+	ctx.drawImage(appleImg, 280, 444 - 10);
+	ctx.drawImage(appleImg, 287, 444 - 10);
+	ctx.drawImage(appleImg, 369, 446 - 10);
+
+	ctx.drawImage(basketBottomImg, basketX, basketY);
 }
 
 function myMove(e){
@@ -160,8 +161,8 @@ function mouseDown(e){
 }
 
 function myUp(){
- dragok = false;
- canvas.onmousemove = null;
+	dragok = false;
+ 	canvas.onmousemove = null;
  	$("#score").html("Score: <strong>5</strong>")
  	$("#win_msg").html("<strong>You Win!</strong> Click to redeem your Gyft!")
  	$("#win_msg").on("click", function() {
@@ -170,23 +171,21 @@ function myUp(){
 }
 
 function crashWith(otherobj) {
-			var myleft = this.x;
-			var myright = this.x + (this.width);
-			var mytop = this.y;
-			var appleBottom = this.y + (this.height);
-			var otherleft = otherobj.x;
-			var otherright = otherobj.x + (otherobj.width);
-			var othertop = otherobj.y;
-			var otherbottom = otherobj.y + (otherobj.height);
-			var crash = true;
-			if ((mybottom < othertop) ||
-					(mytop > otherbottom) ||
-					(myright < otherleft) ||
-					(myleft > otherright)) {
-				crash = false;
-			}
-			return crash;
-		}
+	var myleft = this.x;
+	var myright = this.x + (this.width);
+	var mytop = this.y;
+	var appleBottom = this.y + (this.height);
+	var otherleft = otherobj.x;
+	var otherright = otherobj.x + (otherobj.width);
+	var othertop = otherobj.y;
+	var otherbottom = otherobj.y + (otherobj.height);
+	var crash = true;
+	if ((mybottom < othertop) || (mytop > otherbottom) ||
+		(myright < otherleft) || (myleft > otherright)) {
+		crash = false;
+	}
+	return crash;
+}
 
 init();
 canvas.onmousedown = mouseDown;
