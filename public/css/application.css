@@ -15,7 +15,7 @@ end color palette*/
 /* universal */
 
 .navbar-inverse {
-  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%); 
+  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%);
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 
 .container {
   width: 500px;
-  background-color: white;
+  /*background-color: white;*/
   border-radius: 1vw;
   padding: 15px;
 }
@@ -129,9 +129,13 @@ input, textarea {
 }
 
 
-#center {
+.center {
   margin: auto;
   width: 200px;
+}
+
+#amount-note-email {
+  display:none;
 }
 
 #button {
@@ -148,6 +152,8 @@ input, textarea {
 
 #birthday {
 	text-align: center;
+  width: 500px;
+  padding-bottom: 20px;
 }
 
 /*#overlay1 {
@@ -175,11 +181,3 @@ footer a:hover {
   color: #FAAA13;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
