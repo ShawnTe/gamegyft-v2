@@ -184,6 +184,9 @@ footer a:hover {
   text-decoration: none;
 }
 
+canvas {
+  background-color: #f00;
+}
 
 
 
