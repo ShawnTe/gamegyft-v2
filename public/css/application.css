@@ -15,12 +15,9 @@ end color palette*/
 /* universal */
 
 .navbar-inverse {
-<<<<<<< HEAD
-  background-image: 
-  linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%); 
-=======
+
   background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%);
->>>>>>> f20982673f35a35b903c703b1caa8781c457c621
+
 }
 
 body {
@@ -99,7 +96,6 @@ a {
   color: #1a1F71;
 }
 
-
 /* footer */
 
 footer {
@@ -108,7 +104,6 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #75787B;
   color: #75787B;
-
 }
 
 small {
@@ -124,7 +119,6 @@ small li {
   		float: left;
   		margin-left: 15px;
 }
-
 
 input, textarea {
   border: 1px solid #bbb;
@@ -156,6 +150,11 @@ input, textarea {
 	background-size: 650px 455px;
   height: 455px;
   width: 650px;
+  /*float: right;*/
+}
+
+#game {
+  /*float: right;*/
 }
 
 #birthday {
@@ -163,10 +162,6 @@ input, textarea {
   width: 500px;
   padding-bottom: 20px;
 }
-
-/*#overlay1 {
-	position:absolute; top:20px; left:100px;
-}*/
 
 #overlay1 {
     position: relative;
@@ -189,18 +184,11 @@ footer a:hover {
   color: #FAAA13;
   text-decoration: none;
 }
-<<<<<<< HEAD
-
-/*main {
-  margin-top: 100px;
-}*/
 
 
+main {
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
 
 
-
-
-
-
-=======
->>>>>>> f20982673f35a35b903c703b1caa8781c457c621
