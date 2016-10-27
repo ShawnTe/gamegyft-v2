@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <!-- javascript files -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="/js/application.js"></script>
-    <script src="/js/playGame.js"></script>
     <script src="/js/materialize.js"></script>
+    <script src="/js/gyft.js"></script>
+    <script src="/js/payment.js"></script>
+    <script src="/js/playGame.js"></script>
 
   <!-- Google fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron">
@@ -32,9 +33,10 @@
 </head>
 
 <body>
-
   <%= erb :_header %>
-  <%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
   <%= erb :_footer %>
 
 </body>
