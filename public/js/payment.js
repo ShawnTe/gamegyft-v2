@@ -19,7 +19,7 @@ function fund_card() {
 		  data: JSON.stringify(
 		  	{"user_token": "188794de-da8e-4e42-8325-bc668da7426b",
 					  			"amount": "10.00",
-					  		    "currency_code": "840",
+					  		  "currency_code": "840",
 					  			"funding_source_token": "aa643dc1-dafd-41e1-803c-a92ab31037ba"}),
 
 		  success: function (data) {
