@@ -1,5 +1,5 @@
 <div id="container">
-	<canvas id="gameCanvas" >
+	<canvas id="gameCanvas" width="650" height="455" style="background: url('../images/backImage.jpg')">
 
 	</canvas>
 
@@ -49,8 +49,8 @@ var y9 = 337;
 
 // Create the canvas and set the canvas size
 // var canvas;
-var WIDTH = 750;
-var HEIGHT = 525;
+var WIDTH = 650;
+var HEIGHT = 455;
 var img = new Image();   // Create new img element
 img.src = '../images/backImage.jpg'; // Set source path
 
@@ -83,11 +83,10 @@ var basketY = 400;
 var basketX = 250
 
 function rect(x,y,w,h) {
-
- ctx.beginPath();
- ctx.rect(x,y,w,h);
- ctx.closePath();
- ctx.fill();
+	ctx.beginPath();
+	ctx.rect(x,y,w,h);
+	ctx.closePath();
+	ctx.fill();
 }
 
 
@@ -100,6 +99,9 @@ function init() {
 	canvas = document.getElementById("gameCanvas");
 	console.log(canvas)
 	ctx = canvas.getContext("2d");
+	ctx.moveTo(0,0);
+	ctx.lineTo(200,100);
+	ctx.stroke();
 	return setInterval(draw, 15);
 }
 
@@ -138,15 +140,6 @@ function myMove(e){
 		x1 = e.pageX - canvas.offsetLeft;
 		y1 = e.pageY - canvas.offsetTop;
 	}
-
-	// if (x1 > 260 && x1 < 445 &&  y1 > 448){
-	// // fund_card();
- // 	// alert("You win!")
- // 	// <input type="button" 
-	//  //   value="Simulate Game Won - Fund Card Now!" 
-	//  //   onclick="fund_card();"/>
- 	
- // }
 }
 
 function mouseDown(e){
