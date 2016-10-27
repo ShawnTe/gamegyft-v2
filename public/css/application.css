@@ -142,20 +142,12 @@ input, textarea {
 #gameCanvas {
 	border-style: solid;
 	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
+  background-image: url('../images/backImage.jpg');
+	background-size: 750px 525px;
 }
 
 #birthday {
 	text-align: center;
-}
-
-
-#gameCanvas {
-	border-style: solid;
-	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
 }
 
 /*#overlay1 {

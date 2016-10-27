@@ -3,7 +3,7 @@ get '/games/new' do
 	erb :'games/new'
 end
 
-get '/games/:id' do 
+get '/games/1' do 
 	@title = "Play Game"
 	erb :'games/show'
 end
