@@ -1,3 +1,13 @@
-get '/new' do 
-	
+get '/gyfts/new' do
+	@title = "Send Gyft"
+	erb :'gyfts/new'
+end
+
+get '/gyfts/:id' do
+	@title = "Your Gyft" 
+	erb :'gyfts/show'
+end
+
+post '/gyfts' do
+	redirect '/games/new'
 end

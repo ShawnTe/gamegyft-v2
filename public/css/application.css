@@ -15,12 +15,15 @@ end color palette*/
 /* universal */
 
 .navbar-inverse {
-  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%); 
+
+  background-image: linear-gradient(to bottom, #1a1F71  50%,  #1a1F71 100%);
+
 }
 
 body {
 	background-color: #FEDD84;
-	padding-top: 60px;
+	padding-top: 50px;
+  margin-top: 50px;
  	overflow: auto;
   display: flex;
   justify-content: center;
@@ -30,24 +33,37 @@ body {
 }
 
 .container {
-  width: 500px;
-  background-color: white;
+  max-width: 600px;
+  /*background-color: white;*/
   border-radius: 1vw;
   padding: 15px;
 }
 
+.game-page {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#left-side {
+  padding-right: 20px;
+  max-width: 20vw;
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-family: 'Russo One', sans-serif;
+
 }
 
 h1 {
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  font-family: 'Orbitron', serif;
-  font-size: 30px;
+  font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+  color: #75787B;
   position: auto;
 }
 
@@ -60,6 +76,9 @@ h2 {
   color: red;
 }
 
+h4 {
+  color: #75787B;
+}
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -93,7 +112,6 @@ a {
   color: #1a1F71;
 }
 
-
 /* footer */
 
 footer {
@@ -102,7 +120,6 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #75787B;
   color: #75787B;
-
 }
 
 small {
@@ -119,7 +136,6 @@ small li {
   		margin-left: 15px;
 }
 
-
 input, textarea {
   border: 1px solid #bbb;
   width: 100%;
@@ -129,9 +145,13 @@ input, textarea {
 }
 
 
-#center {
+.center {
   margin: auto;
   width: 200px;
+}
+
+#amount-note-email {
+  display:none;
 }
 
 #button {
@@ -142,25 +162,22 @@ input, textarea {
 #gameCanvas {
 	border-style: solid;
 	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
+  background-image: url('../images/backImage.jpg');
+	background-size: 650px 455px;
+  height: 455px;
+  width: 650px;
+  /*float: right;*/
+}
+
+#game {
+  /*float: right;*/
 }
 
 #birthday {
 	text-align: center;
+  width: 500px;
+  padding-bottom: 20px;
 }
-
-
-#gameCanvas {
-	border-style: solid;
-	border-color: black;
-	background: url("backImage.jpg");
-	background-size: 500px 350px;
-}
-
-/*#overlay1 {
-	position:absolute; top:20px; left:100px;
-}*/
 
 #overlay1 {
     position: relative;
@@ -171,6 +188,7 @@ input, textarea {
 .nav li{
   padding-top: 5px;
   font-family: 'Raleway', sans-serif;
+  font-size: .8em;
 
  }
 
@@ -185,9 +203,9 @@ footer a:hover {
 }
 
 
-
-
-
-
+main {
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
 
 
