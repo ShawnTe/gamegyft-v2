@@ -1,9 +1,13 @@
-get '/games/new' do 
+get '/games/new' do
 	@title = "Choose a Game"
 	erb :'games/new'
 end
 
-get '/games/1' do 
+get '/games/1' do
 	@title = "Play Game"
 	erb :'games/show'
+end
+
+post '/games' do
+	redirect '/payments/new'
 end

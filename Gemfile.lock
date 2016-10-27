@@ -15,7 +15,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    autoprefixer-rails (6.4.0.3)
+    autoprefixer-rails (6.5.1.1)
       execjs
     backports (3.6.4)
     bootstrap-sass (3.3.6)
