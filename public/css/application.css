@@ -112,6 +112,12 @@ a {
   color: #1a1F71;
 }
 
+.sidenote {
+  padding-top: 100px;
+  text-align: center;
+  font-size: .8em;
+  color: #75787B;
+}
 /* footer */
 
 footer {
@@ -207,5 +213,3 @@ main {
   /*margin-right: auto;
   margin-left: auto;*/
 }
-
-
