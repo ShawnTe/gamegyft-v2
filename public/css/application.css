@@ -46,6 +46,13 @@ body {
   justify-content: center;
 }
 
+.center-gyft {
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #left-side {
   padding-right: 20px;
   max-width: 20vw;
@@ -181,7 +188,7 @@ input, textarea {
 
 #birthday {
 	text-align: center;
-  width: 500px;
+  width: 600px;
   padding-bottom: 20px;
 }
 
