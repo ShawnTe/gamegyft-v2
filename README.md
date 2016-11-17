@@ -18,3 +18,5 @@ The underlying psychology of giving weaves a complex web of emotions. GameGyft a
 [Eric Booker](https://github.com/ericbooker12)  
 [Amanda Cook](https://github.com/AmandaWouldGo)  
 [Shawn Tuttle](https://github.com/ShawnTe)  
+
+Check out our mention on the [Forbes blog](http://bit.ly/2f1NMGT)!
