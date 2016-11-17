@@ -13,6 +13,9 @@ In 2015, Gift Card sales reached a new peak of $130 BILLION dollars. Holidays, b
 
 The underlying psychology of giving weaves a complex web of emotions. GameGyft alleviates this dynamic by adding personalization and delight to the gift card industry.
 
+## My Role
+Presentation concept and delivery, frontend  
+
 ## Team
 [Mike Ball](https://github.com/mikeball)  
 [Eric Booker](https://github.com/ericbooker12)  
