@@ -23,3 +23,29 @@ Presentation concept and delivery, frontend
 [Shawn Tuttle](https://github.com/ShawnTe)  
 
 Check out our mention on the [Forbes blog](http://bit.ly/2f1NMGT)!
+
+## Screenshots
+
+Name and age of person who will be recieving the gift.
+![Initial screen](public/screenshots/SendGyft.png "Initial screen")
+
+---
+The amount and a personal message for the reciever.
+![Amount and personal message](public/screenshots/SendGyft2.png "Amount and personal message")
+
+---
+The challenge the reciever has to complete in order to unlock the gift.
+![Pick A Challenge](public/screenshots/PickChallenge.png "Pick a challenge")
+
+---
+Payment details used to fund the gift.
+![Payment details](public/screenshots/PaymentInfo.png "Payment details")
+
+---
+On successful payment.
+![Successful payment](public/screenshots/Success.png "Success page")
+
+---
+The game that the reciever has to complete to unlock the gift.
+This age appriate game is intended for age 6 or under.
+![Apple Game](public/screenshots/Game.png "Apple Game")
