@@ -47,5 +47,5 @@ On successful payment.
 
 ---
 The game that the reciever has to complete to unlock the gift.
-This age appriate game is intended for age 6 or under.
+This age appropriate game is intended for age 6 or under.
 ![Apple Game](public/screenshots/Game.png "Apple Game")
